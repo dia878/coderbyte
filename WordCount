@@ -1,0 +1,11 @@
+def WordCount(str)
+	str2 = str.tr(' ','')
+  
+  # code goes here
+  return str.length - str2.length + 1
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+WordCount(STDIN.gets)  
