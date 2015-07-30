@@ -1,0 +1,14 @@
+def LetterChanges(str)
+
+  str2 = str.tr('a-y', 'b-z')
+  str3 = str2.tr('aeiou', 'AEIOU')
+  str4 = str3.tr('z', 'A')
+  
+  # code goes here
+  return str4
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+LetterChanges(STDIN.gets)  
